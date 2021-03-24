@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Katalog filmów",
+  "name": "Katalog filmowy z wyszukiwarką",
   "icons": [
     {
       "src": "favicon.ico",
