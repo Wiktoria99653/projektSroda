@@ -1,10 +1,13 @@
 import React from "react";
+import MovieCard from "./MovieCard";
+import { movies } from "../data";
 
 const Catalog = ({ filter }) => {
   return (
     <div className="catalog">
-      <h6>Znalezione filmy</h6>
-      <p>{filter}</p>
+      {movies.map((movie) => (
+        <MovieCard movie={movie} key={movie.id} />
+      ))}
     </div>
   );
 };
