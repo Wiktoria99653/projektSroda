@@ -22,7 +22,11 @@ const SearchBar = ({ userSearch }) => {
         onChange={userTypedText}
       />
       <InputGroup.Append>
-        <Button variant="primary" onClick={sendText}>
+        <Button
+          variant="primary"
+          onClick={sendText}
+          className="searchBar__search"
+        >
           Szukaj
         </Button>
       </InputGroup.Append>

@@ -8,15 +8,45 @@ const Footer = () => {
         <Row>
           <Col>
             <h4>Katalog filmowy</h4>
-            Aplikacja testowa dla semestru IV
+            Najlepsze filmy w historii kina
+            <p className="header__description">
+              Aplikacja zrealizowna w technologii React. Autor: Andrzej Herman
+            </p>
           </Col>
           <Col>
             <h5>Przydatne linki</h5>
             <div className="links">
               <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
+                <li>
+                  <a
+                    className="footer__link"
+                    href="https://www.imdb.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Baza filmów IMDB
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="footer__link"
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="footer__link"
+                    href="https://www.oscars.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Amerykańska Akademia Filmowa
+                  </a>
+                </li>
               </ul>
             </div>
           </Col>
