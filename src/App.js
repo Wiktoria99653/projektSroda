@@ -25,3 +25,5 @@ const App = () => {
 };
 
 export default App;
+
+// npm install -g firebase-tools

@@ -49,11 +49,27 @@ export const movies = [
   },
   {
     id: 7,
-    title: "Catch me if you can ",
+    title: "Catch me if you can",
     director: "Steven Spielberg",
     description:
       "Oparta na faktach historia młodego fałszerza, który w latach 60., podając się za pilotów, lekarzy i profesorów, wyłudził z banków ponad 2,5 mln dolarów.",
     link:
       "https://www.filmweb.pl/film/Z%C5%82ap+mnie%2C+je%C5%9Bli+potrafisz-2002-32362",
+  },
+  {
+    id: 8,
+    title: "A Cure for Wellness",
+    director: "Gore Verbinski",
+    description:
+      "Młody mężczyzna przyjeżdża do ośrodka odnowy biologicznej, aby zabrać stamtąd swojego szefa. Nie wie, że miejsce skrywa mroczny sekret.",
+    link: "https://www.filmweb.pl/film/Lekarstwo+na+%C5%BCycie-2016-739293",
+  },
+  {
+    id: 9,
+    title: "The call",
+    director: "Steven Spielberg",
+    description:
+      "Operatorka linii alarmowej odbiera telefon od dziewczyny uwięzionej w bagażniku samochodu porywacza.",
+    link: "https://www.filmweb.pl/film/Po%C5%82%C4%85czenie-2013-636531",
   },
 ];

@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import { InputGroup, FormControl, Button } from "react-bootstrap";
+import React from "react";
+import { InputGroup, FormControl } from "react-bootstrap";
 
 const SearchBar = ({ userSearch }) => {
-  const [text, setText] = useState("");
-
   const userTypedText = (e) => {
-    setText(e.target.value);
-  };
-
-  const sendText = () => {
-    userSearch(text);
+    userSearch(e.target.value);
   };
 
   return (
@@ -18,18 +12,8 @@ const SearchBar = ({ userSearch }) => {
         placeholder="Wpisz tytuł filmy lub nazwisko reżysera"
         aria-label="Recipient's username"
         aria-describedby="basic-addon2"
-        value={text}
         onChange={userTypedText}
       />
-      <InputGroup.Append>
-        <Button
-          variant="primary"
-          onClick={sendText}
-          className="searchBar__search"
-        >
-          Szukaj
-        </Button>
-      </InputGroup.Append>
     </InputGroup>
   );
 };
