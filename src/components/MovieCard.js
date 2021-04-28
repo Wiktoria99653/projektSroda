@@ -11,7 +11,14 @@ const MovieCard = ({ movie }) => {
         </Card.Subtitle>
         <Card.Text>{movie.description}</Card.Text>
         <Card.Link href={movie.link} target="_blank" rel="noopener noreferrer">
-          Strona filmu w Filmweb
+          Filmweb
+        </Card.Link>
+        <Card.Link
+          href={movie.trailer}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Zobacz trailer
         </Card.Link>
       </Card.Body>
     </Card>

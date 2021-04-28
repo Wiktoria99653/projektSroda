@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import Catalog from "./components/Catalog";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
+import MainMenu from "./components/MainMenu";
 
 const App = () => {
   const [filmFilter, setFilmFilter] = useState(null);
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <>
       <Container>
+        <MainMenu />
         <Header />
         <SearchBar userSearch={userSearch} />
         <Catalog filter={filmFilter} />
@@ -25,5 +27,3 @@ const App = () => {
 };
 
 export default App;
-
-// npm install -g firebase-tools
