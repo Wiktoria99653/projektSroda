@@ -1,28 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import Catalog from "./components/Catalog";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
 import MainMenu from "./components/MainMenu";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import CatalogPage from "./pages/CatalogPage";
+import ContactPage from "./pages/ContactPage";
+import LoginPage from "./pages/LoginPage";
 
 const App = () => {
-  const [filmFilter, setFilmFilter] = useState(null);
-
-  const userSearch = (data) => {
-    setFilmFilter(data);
-  };
-
   return (
-    <>
+    <BrowserRouter>
       <Container>
         <MainMenu />
         <Header />
-        <SearchBar userSearch={userSearch} />
-        <Catalog filter={filmFilter} />
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/catalog" exact component={CatalogPage} />
+          <Route path="/contact" exact component={ContactPage} />
+          <Route path="/login" exact component={LoginPage} />
+        </Switch>
       </Container>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 };
 

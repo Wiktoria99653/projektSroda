@@ -11,6 +11,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu_link:hover {
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .header__description {
@@ -74,4 +80,23 @@
   width: 320px;
   min-width: 320px;
   margin: 20px;
+}
+
+.home_content {
+  margin-top: 20px;
+}
+
+.home_img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.home_text {
+  text-align: justify;
+}
+
+.google_login {
+  margin-top: 20px;
+  text-align: center;
 }
