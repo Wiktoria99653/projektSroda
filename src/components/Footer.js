@@ -8,9 +8,9 @@ const Footer = () => {
         <Row>
           <Col>
             <h4>Katalog filmowy</h4>
-            Najlepsze filmy w historii kina
+            Najlepsze seriale według użytkowników Filmwebu.
             <p className="header__description">
-              Aplikacja zrealizowna w technologii React. Autor: Andrzej Herman
+              Aplikacja zrealizowna w technologii React.
             </p>
           </Col>
           <Col>
@@ -20,11 +20,11 @@ const Footer = () => {
                 <li>
                   <a
                     className="footer__link"
-                    href="https://www.imdb.com/"
+                    href="https://www.filmweb.pl/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Baza filmów IMDB
+                    Filmweb
                   </a>
                 </li>
                 <li>
@@ -40,11 +40,11 @@ const Footer = () => {
                 <li>
                   <a
                     className="footer__link"
-                    href="https://www.oscars.org/"
+                    href="https://www.filmweb.pl/ranking/serial"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Amerykańska Akademia Filmowa
+                    Ranking seriali
                   </a>
                 </li>
               </ul>

@@ -9,7 +9,7 @@ const SearchBar = ({ userSearch }) => {
   return (
     <InputGroup className="mb-3">
       <FormControl
-        placeholder="Wpisz tytuł filmy lub nazwisko reżysera"
+        placeholder="Wpisz tytuł serialu lub nazwisko reżysera"
         aria-label="Recipient's username"
         aria-describedby="basic-addon2"
         onChange={userTypedText}

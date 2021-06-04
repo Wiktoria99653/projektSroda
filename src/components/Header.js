@@ -4,10 +4,9 @@ import { Button, Jumbotron } from "react-bootstrap";
 const Header = () => {
   return (
     <Jumbotron className="jumbo">
-      <h1 className="jumbo__title">Katalog filmowy</h1>
+      <h1 className="jumbo__title">Katalog seriali</h1>
       <p className="jumbo__text">
-        Katalog najwyżej ocenianych filmów w historii polskiego i światowego
-        kina.
+      Najlepsze seriale według użytkowników Filmwebu.
       </p>
       <a
         href="https://www.filmweb.pl/"
