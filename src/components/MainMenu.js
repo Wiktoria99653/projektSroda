@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const MainMenu = () => {
   return (
     <div className="main_menu">
-      {/* <Link className="menu_link" to="/">
+      <Link className="menu_link" to="/">
         Strona główna
-      </Link> */}
+      </Link>
       <Link className="menu_link" to="/catalog">
         Katalog seriali
       </Link>
